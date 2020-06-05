@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0;padding:0
+}
+
+body
+
+{
+	font-family: 'Bai Jamjuree', sans-serif;
+	width:1440px;
+	height:auto;
+}
+/***********************************************************************************************************/
+header
+{
+	position:relative;
+	height: 300px;
+	width:100%;
+	background:url("../images/bg-header-desktop.png") ;
+	
+}
+header .logo
+{
+	position: absolute;
+	top:80px;
+	left:665px;
+}
+/*************************************************************************************************************/
+main
+{
+	
+}
+main .topmain
+{
+	
+	position:absolute;
+	left:360px;
+	background: #FEFEFE;
+}
+main .topmain h1
+{
+	font-size: 45px;
+}
+main .topmain p
+{
+	position: absolute;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 200;
+	top:65px;
+	
+}
+main .topmain .buttons
+{
+	width:510px;
+	margin-top:85px;
+	margin-left: 100px;
+
+}
+main .topmain .buttons button
+{
+	width:235px;
+	padding:18px 15px;
+	border-radius: 30px;
+	margin: 8px;
+	font-size: 18px;
+	color:#fff;
+	border:0;
+	outline: 0;
+	
+}
+
+main .topmain .buttons  .btn1
+{
+	background: #27BBA5;
+	box-shadow: 10px 10px 10px #27BBA5;
+}
+main .topmain .buttons .btn2
+{
+	background: #6372FF;
+	box-shadow: 10px 10px 10px #6372FF;
+}
+
+/*********************************************************************************************************/
+main .track
+{
+	position: absolute;
+	top:650px;
+	left:360px;
+	
+}
+main .track h1
+{
+	font-size: 36px;
+	margin-left:118px;
+
+	
+}
+main .track p
+{
+	margin-left: -15px;
+	font-size: 20px;
+	text-align: center;
+    line-height: 1.5;
+}
+/********************************************************************************************************/
+main .mac
+{
+	position: absolute;
+	top:870px;
+	left: -38px;
+	display: inline;
+}
+main .mac .list
+{
+	position: absolute;
+	top: 73px;
+    left: 860px;
+     width: 1440px;
+}
+main .mac .list ul
+{
+	list-style: none;
+}
+main .mac .list ul li
+{
+	margin-bottom: 50px;
+}
+main .mac .list ul h2
+{
+	margin-bottom: 13px;
+}
+main .mac .list ul p
+{
+	margin-bottom: 13px;
+	line-height: 1.8;
+}
+/*************************************************************************************************/
+main .tablet
+{
+	position:absolute;
+	top: 1586px;
+    left: 250px;
+}
+main .tablet h1
+{
+	margin-left: 265px;
+	font-size: 38px;
+	
+}
+main .tablet p
+{
+	text-align: center;
+	margin-top:20px;
+	margin-left: 100px;
+	font-size: 18px;
+	line-height: 1.7;
+	margin-bottom: 85px;
+}
+/*************************************************************************************************/
+main .workflow
+{
+	position:absolute;
+	top:2450px;
+	left:170px;
+}
+main .workflow h1
+{
+	font-size: 39px;
+	margin-left: 300px;
+	margin-bottom: 30px;
+}
+main .workflow > p
+{
+	margin-left: 360px;
+	font-size: 18px;
+	margin-bottom: 80px;
+}
+main .workflow .icons
+{
+	width:100%;
+	text-align: center;
+}
+main .workflow .icons ul
+{
+	list-style: none;
+}
+main .workflow .icons ul li
+{
+	float:left;
+	width:32;
+	margin-left: 15px;
+}
+main .workflow .icons ul li img
+{
+	margin-bottom: 25px;
+}
+main .workflow .icons ul li h2
+{
+	margin-bottom: 20px;
+}
+main .workflow .icons ul li p
+{
+	text-align: center;
+}
+/**********************************************************************************************************/
+main .companies
+{
+	position:absolute;
+	top:2950px;
+	left:110px;
+}
+main .companies ul
+{
+	list-style: none;
+}
+main .companies ul li
+{
+	float:left;
+	margin-left: 90px;
+}
+/************************************************************************************************************/
+
+
+main .clip
+{
+	position: absolute;
+	top:3150px;
+	left:400px;
+}
+main .clip h1
+{
+	font-size: 45px;
+	margin-left: 70px;
+}
+main .clip p
+{
+
+	text-align: center;
+	font-size: 20px;
+	font-weight: 200;
+	top:65px;
+	line-height: 1.7;
+	
+}
+main .clip .buttons
+{
+	width:510px;
+	margin-top:35px;
+	margin-left: 100px;
+
+}
+main .clip .buttons button
+{
+	width:235px;
+	padding:18px 15px;
+	border-radius: 30px;
+	margin: 8px;
+	font-size: 18px;
+	color:#fff;
+	border:0;
+	outline: 0;
+	
+}
+
+main .clip .buttons  .btn1
+{
+	background: #27BBA5;
+	box-shadow: 10px 10px 10px #27BBA5;
+}
+main .clip .buttons .btn2
+{
+	background: #6372FF;
+	box-shadow: 10px 10px 10px #6372FF;
+}
+
+/********************************************************************************************************/
+
+footer 
+{
+	background: #F5F6F8;
+	position: absolute;
+	top:3550px;
+	width:1440px;
+}
+
+footer .logo1
+{
+	float:left;
+	margin:50px;
+	
+}
+footer .logo1 img
+{
+	height:60px;
+}
+footer .nav
+{
+	
+	float:left;
+	margin-left: 80px;
+	margin-top: 50px;
+	font-size: 20px;
+}
+footer .nav .list1
+{
+      
+}
+footer .nav .list1 ul
+{
+	list-style: none;
+	
+}
+footer .nav .list1 ul li
+{
+	float:left;
+	margin-right: 138px;
+}
+footer .nav .list2
+{
+	margin-top: 40px;
+}
+footer .nav .list2 ul
+{
+	list-style: none;
+}
+footer .nav .list2 ul li
+{
+	float:left;
+	margin-right: 80px;
+}
+/********************************************************************************************************/
+footer .media
+{
+	float:right;
+	margin:90px 100px 0px 70px;
+}
+
+footer .media ul
+{
+	list-style: none;
+}
+footer .media ul li
+{
+	float: left;
+	margin:0 10px;
+}
+/**********************************attribution***********************************/
+footer .attribution
+{
+	position:absolute;
+	top:140px;
+	color:#000;
+	font-size: 20px;
+	left:440px;
+}
+footer .attribution i
+{
+	color:#f00;
+	font-size:25px;
+}
+footer .attribution a 
+{
+	color:#000;
+	text-decoration: none;
+}
